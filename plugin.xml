@@ -20,9 +20,9 @@
       </feature>
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.CAMERA" android:required="false" />
-      <uses-feature android:name="android.hardware.camera" android:required="false" />
-      <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+      <uses-permission android:name="android.permission.CAMERA" />
+      <uses-feature android:name="android.hardware.camera" />
+      <uses-feature android:name="android.hardware.camera.front" />
     </config-file>
     <source-file src="src/android/QRScanner.java" target-dir="src/com/bitpay/cordova/qrscanner"/>
     <dependency id="cordova-plugin-compat" version="^1.0.0" />
